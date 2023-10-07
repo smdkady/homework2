@@ -8,7 +8,7 @@ public class Main {
         int bonus = 0;
 
         if (refill > 1000) {
-        bonus = refill / 100;
+            bonus = refill / 100;
         }
         int finalBalance = startingBalance + refill + bonus;
         System.out.println("Баланс " + finalBalance);
